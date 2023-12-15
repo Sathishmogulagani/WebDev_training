@@ -1,0 +1,28 @@
+*
+{
+    background-color: indigo;
+}
+.using_class div/*decendent selector is div here*/
+{
+    color: aqua;
+    text-align: center;
+    background-color: red;
+
+}
+.header > div /* wont be applied for span*/
+{
+    text-align: center;
+}
+.header .child_1
+{
+    color: blue;
+}
+
+.header > :nth-child(4)
+{
+    color: chartreuse;
+}
+.header > :last-child /*last child*/
+{
+    color: orange;
+}

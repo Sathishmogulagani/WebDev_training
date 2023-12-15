@@ -1,0 +1,103 @@
+//12/12/23
+
+types of css:
+		
+	inline---not rec,internal--not recm,external----good to use
+	style is an attribute in inline css
+
+//selectors:
+	id
+	class:::::::::firstelement,first_element,
+	descendent selector
+
+	accessing child divs,,,
+	.header > div{}----in the class header,for only children which have div apply following code..
+
+//spacing
+has special role
+margin & padding
+responsivenesss is not achived using spacing activities.
+
+margib:10px  applies for left,top sides..outside
+	margin: y x [yleft yright xleft xright]
+	margin: top left right bottom 
+padding 10px: applies for left,top sides,inside
+
+.////////
+!important -------attribute in css
+it will give priority for the overwritten properties.
+
+
+//
+box-sizing
+
+if width,height are givin 100px also ,it will include the padding also.
+boder-box considers all the paddings
+
+//
+like span has block as default
+
+dispaly natures:
+	block--has width,height
+	inline--has no width,height, has default one
+	none:: makes contwnt visible false (or)
+
+	visibility:hidden;
+
+inline wont allow h,width:
+	if we need so,then put that display as inline-block and h,w follows
+        display: inline-block;
+        width:250px
+
+advanced dispalys are:
+	flex and grid
+
+
+//
+Pseudo classes:
+link :change in the color when the link is clicked
+visited:
+hover:
+active:
+
+//
+positions:
+
+static:
+	deflaut behaviour , no need to mention
+relative:
+	parent should be relative for childs to be absolute
+	moving from actual position where it is -default top-left
+
+	position:relative;
+	margin-left:20px;
+	mr,ml are like relative
+
+absolute:
+	start from where the parent is starting
+	like overlapping is possible using abouste
+	right:0; ushed right
+fixed:
+	will not move what ever it happens.
+	like logo will be always there in top left even after scrolling down or right/......
+	right left or... will be sticked to window position
+
+sticky:
+	stick to the window in any edge.it wont get hide while scrolling.
+	sides: mostly top:0px;
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

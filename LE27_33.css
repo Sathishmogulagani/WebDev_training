@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.card {
+  width: 270px;
+  height: 180px;
+  background-color: #abc;
+  box-shadow: 1px 2px 3px 2px #000;
+}
+.heading {
+  display: inline-flex;
+  margin: 1rem;
+  gap: 20px;
+}
+
+.image {
+  border-radius: 50%;
+}
+.name {
+  margin-top: 10px;
+  color: rgb(46, 39, 39);
+  font-size: large;
+  font-weight: bold;
+}
+.data {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}

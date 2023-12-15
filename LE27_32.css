@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+  height: 250px;
+  width: 450px;
+  background-color: rgb(57, 61, 60);
+}
+.container .inner {
+  background-color: rgb(220, 223, 213);
+  height: 140px;
+  width: 350px;
+}
+
+.container .inner .texts {
+  padding-left: 15px;
+}
+.container .inner .texts .greater {
+  font-size: x-large;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.container .inner .buttons {
+  padding: 1rem 2rem;
+}
+.container .inner .buttons #cancel,
+#yes,
+#no,
+#ok {
+  color: white;
+  border-radius: 5px;
+  font-size: 25px;
+  margin: 1px;
+  cursor: pointer;
+}
+.container .inner .buttons #cancel {
+  background-color: rgb(21, 158, 21);
+  border: 2px solid rgb(21, 158, 21);
+}
+
+.container .inner .buttons #yes {
+  background-color: red;
+  border: 2px solid red;
+}
+.container .inner .buttons #ok {
+  background-color: yellow;
+  border: 2px solid yellow;
+}
+.container .inner .buttons #no {
+  background-color: blue;
+  border: 2px solid blue;
+}

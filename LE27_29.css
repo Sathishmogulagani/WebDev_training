@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+body {
+  background-color: rgb(58, 55, 55);
+}
+
+.cards {
+  box-sizing: border-box;
+  margin: auto;
+  /* justify-content: space-evenly; */
+  justify-content: center;
+  gap: 25px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: 45rem;
+  width: 100%;
+}
+
+.card {
+  background-color: rgb(158, 163, 158);
+  margin: 10px;
+  height: 32rem;
+  width: 16rem;
+  box-shadow: 2px 2px 2px 2px rgb(247, 247, 243);
+}
+.photo {
+  opacity: 0.9;
+  height: 160px;
+  width: 100%;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+.user_title {
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 10px rgb(17, 17, 17), 0 0 20px rgb(180, 180, 230),
+    0 0 30px rgb(101, 101, 212);
+  margin-top: 1rem;
+  position: relative;
+  font-weight: bold;
+  font-size: x-large;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  box-sizing: border-box;
+}
+.data {
+  margin-top: 1.4rem;
+  margin: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card .plus_btn {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 5px;
+  background-color: #31871a;
+  margin: auto;
+  width: 125px;
+  height: 28px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px 1px rgb(83, 81, 81);
+}

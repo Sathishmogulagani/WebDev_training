@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  font-weight: 700;
+}
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  width: 270px;
+  margin: auto;
+  color: white;
+}
+.container .header {
+  text-align: center;
+}
+
+.container .header span {
+  font-style: italic;
+}
+
+form {
+  background-color: rgb(32, 36, 61);
+  padding: 1.5rem;
+  margin-top: 20px;
+  font-size: 1rem;
+}
+form .fname,
+.Email,
+.role,
+.refer,
+.liked_thing {
+  display: grid;
+  width: 200px;
+  gap: 5px;
+}
+form #name,
+#email,
+#age,
+#Role,
+#feature {
+  width: 200px;
+  height: 1.5rem;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  font-family: monospace;
+}
+form #area {
+  max-width: 200px;
+  min-width: 200px;
+  min-height: 100px;
+}
+form .btn {
+  width: 90%;
+  background-color: green;
+}

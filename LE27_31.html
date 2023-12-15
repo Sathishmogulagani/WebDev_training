@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="LE27_31.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="application">
+        <!-- heading -->
+        <div class="header">ZOO Keeper Application Form</div>
+        <div class="sub_header">please complete the form.Mandatory fields are marked with a <p style="color: red; display: inline;">*</p></div>
+
+        <!-- contact -->
+        
+        <div class="Contact_parent">
+            <div class="tag_data1">CONTACT DETAILS</div>
+            <div class="contact_box">
+                <label for="name">Name<p style="color: red; display: inline;">*</p></label>
+                <input type="text" name="name" id="name"><br>
+                
+                <label for="telephone">Telephone</label>
+                <input type="phone" name="telephone" id="telephone"><br>
+
+                <label for="Email">Email<p style="color: red; display: inline;">*</p></label>
+                <input type="email" name="Email" id="email">
+            </div>
+        </div>
+
+        <!-- personal -->
+        <div class="personal_parent">
+            <div class="tag_data2">PERSONAL INFORMATION</div>
+            <div class="personal_box">
+                <label for="Age"><p style="color: red; display: inline;">*</p>Age</label>
+                <input type="number" class="inp" name="Age" id="Age"><br>
+
+                <label for="Gender">Gender</label>
+                <select name="Gender" id="gender">
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                    <option value="other">Others</option>
+                </select><br>
+                <div class="knew_info">
+                    <div class="text">When did you first know you wanted to be a zoo keeper?</div>
+                    <textarea name="info" id="info" cols="" rows=""></textarea>
+                </div>
+            </div>
+        </div>
+        <!-- fav animal -->
+        <div class="fav_parent">
+            <div class="tag_data3">PICK YOUR FAVOURITE ANIMALS</div>
+            <div class="fav_box">
+                <input class=" inp" type="checkbox" name="Zebra" id="Zebra">
+                <label for="Zebra">Zebra</label>
+                <input class=" inp" type="checkbox" name="Cat" id="Cat">
+                <label for="Cat">Cat</label>
+                <input class=" inp" type="checkbox" name="Human" id="Human">
+                <label for="Human">Human</label>
+                <input class=" inp" type="checkbox" name="Crab" id="Crab">
+                <label for="Crab">Crab</label>
+                <input class=" inp" type="checkbox" name="Pigeon" id="Pigeon">
+                <label for="Pigeon">Pigeon</label>
+                <input class=" inp" type="checkbox" name="Elephant" id="Elephant">
+                <label for="Elephant">Elephant</label>
+                <input class=" inp" type="checkbox" name="Elephant" id="Elephant">
+                <label for="Elephant">Elephant</label>
+                <input class=" inp" type="checkbox" name="Cow" id="Cow">
+                <label for="Cow">Cow</label>
+                <!-- <div class="animal">
+                    <input type="checkbox" name="Zebra" id="Zebra">
+                    <label for="Zebra">Zebra</label>
+                </div>
+                <div class="animal">
+                    <input type="checkbox" name="Cat" id="Cat">
+                    <label for="Cat">Cat</label>
+                </div>
+                <div class="animal">
+                    <input type="checkbox" name="Anaconda" id="Anaconda">
+                    <label for="Anaconda">Anaconda</label>
+                </div>
+                <div class="animal">
+                    <input type="checkbox" name="Human" id="Human">
+                    <label for="Human">Human</label>
+                </div>
+                <div class="animal">
+                    <input type="checkbox" name="Elephant" id="Elephant">
+                    <label for="Elephant">Elephant</label>
+                </div>
+                <div class="animal">
+                    <input type="checkbox" name="Wildbeast" id="Wildbeast">
+                    <label for="Wildbeast">Wildbeast</label>
+                </div>
+                <div class="animal">
+                    <input type="checkbox" name="Pigeon" id="Pigeon">
+                    <label for="Pigeon">Pigeon</label>
+                </div>
+                <div class="animal">
+                    <input type="checkbox" name="Crab" id="Crab">
+                    <label for="Crab">Crab</label>
+                </div> -->
+            </div>
+        </div>
+        <!-- submit -->
+        <input type="submit" value="submit application" id="submit">
+    </div>
+</body>
+</html>

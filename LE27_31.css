@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+.application {
+  box-sizing: border-box;
+  margin: auto;
+  height: 750px;
+  width: 600px;
+  max-width: 600px;
+  background-color: #ddd;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+.header {
+  margin: auto;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+}
+.sub_header {
+  margin: auto;
+  font-style: italic;
+  font-size: 1.05rem;
+}
+
+/* contact */
+.Contact_parent,
+.personal_parent,
+.fav_parent {
+  position: relative;
+  padding-top: 20px;
+}
+.Contact_parent .tag_data1,
+.tag_data2 {
+  position: absolute;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ddd;
+  width: fit-content;
+  margin: -10px 10px;
+}
+
+.Contact_parent .contact_box {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 9rem;
+  padding: 2rem 1.5rem;
+}
+.Contact_parent .contact_box #name,
+#telephone,
+#email {
+  margin-top: 1px;
+  margin-bottom: 6px;
+  width: 65%;
+  height: 25px;
+}
+
+.Contact_parent .contact_box #name {
+  margin-left: 37px;
+}
+.Contact_parent .contact_box #telephone {
+  margin-left: 18px;
+}
+.Contact_parent .contact_box #email {
+  margin-left: 36px;
+}
+
+/* personal */
+.personal_parent .personal_box {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 18rem;
+  padding: 2rem 1.5rem;
+}
+.personal_parent .personal_box #gender,
+#Age {
+  margin-top: 1px;
+  margin-bottom: 6px;
+  width: 65%;
+  height: 25px;
+  margin-left: 35px;
+}
+.personal_parent .personal_box #Age {
+  margin-left: 46px;
+}
+
+.personal_parent .personal_box .text {
+  width: 50px;
+  left: 0;
+}
+.personal_parent .personal_box .knew_info {
+  display: flex;
+}
+
+.personal_parent .personal_box #info {
+  margin-left: 38px;
+  min-width: 250px;
+  min-height: 80px;
+  max-width: 250px;
+  max-height: 180px;
+}
+
+.fav_parent .tag_data3 {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ddd;
+  width: fit-content;
+  margin: -10px 10px;
+}
+.fav_parent .fav_box {
+  border: 1px solid black;
+  border-radius: 5px;
+  max-width: 425px;
+  max-height: 4rem;
+  padding: 1rem;
+  display: inline-block;
+}
+.fav_parent .fav_box label {
+  margin-right: 20px;
+}
+.fav_parent .fav_box .inp {
+  margin-right: 10px;
+}
+#submit {
+  width: fit-content;
+  padding: 5px;
+  border: 2px solid blue;
+  border-radius: 5px;
+  cursor: pointer;
+}

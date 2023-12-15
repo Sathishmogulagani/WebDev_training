@@ -1,0 +1,29 @@
+.container {
+  font-size: 1.7em;
+  width: 7rem;
+  height: 3rem;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  margin: 100px;
+}
+.inbox {
+  border: 0.1rem solid black;
+  background-color: rgb(31, 78, 174);
+  border-radius: 25px;
+  width: 6rem;
+  padding: 5px 10px 5px 15px;
+  position: absolute;
+  box-sizing: border-box;
+}
+.num {
+  border: 0.05rem solid black;
+  position: absolute;
+  right: 0.2rem;
+  width: 3rem;
+  font-size: 1.4rem !important;
+  padding-left: 10px;
+  background-color: rgb(255, 7, 7);
+  border-radius: 100px;
+  margin-top: -17px;
+}

@@ -1,0 +1,31 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.Navigate1 a {
+  text-decoration: none;
+}
+.Navigate1::before {
+  content: "Take Right ";
+  color: red;
+}
+
+.Navigate1:after {
+  content: " Take Left";
+  color: green;
+}
+
+.Navigate1 a:hover {
+  font-size: x-large;
+  color: rgb(29, 171, 196);
+  font-style: italic;
+  cursor: zoom-in;
+}
+.Navigate1 a:active {
+  color: blue;
+}
+.Navigate1 a:visited {
+  color: rgb(242, 13, 215);
+}
+.Navigate1 a:link {
+  color: aqua;
+}

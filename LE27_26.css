@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: auto;
+}
+.image_class {
+  position: fixed;
+  right: 10%;
+  top: 100px;
+}
+.contents {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}

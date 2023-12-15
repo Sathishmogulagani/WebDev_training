@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 5%;
+}
+.container {
+  border: 1px solid #e2f;
+  height: 34.3rem;
+  width: 32rem;
+  padding: 3rem;
+  background-color: cyan;
+}
+.container .name_class,
+.email_class {
+  width: 400px;
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.container .layer1 .inp {
+  width: 15rem;
+  height: 1.5rem;
+  margin-left: 2.2rem;
+}
+
+.container .name_class .layer1 label {
+  padding-left: 5.05rem;
+}
+.container .name_class .layer2 {
+  margin-left: 25px;
+}
+
+.container .email_class .layer1 label {
+  padding-left: 5rem;
+}
+.container .email_class .layer2 {
+  position: absolute;
+  margin-left: 0rem;
+}
+
+.container .phone_class {
+  position: relative;
+}
+.container .phone_class .layer1 label {
+  padding-left: 5rem;
+}
+.container .phone_class .layer2 {
+  margin-left: -16px;
+  margin-bottom: 20px;
+}
+
+.container .website_class,
+.priority_class {
+  position: relative;
+  width: 400px;
+}
+.container .website_class .layer1 label {
+  padding-left: 4.5rem;
+}
+.container .website_class #select {
+  margin-left: 1.95rem;
+}
+
+.container .website_class .layer2 {
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+.container .priority_class .layer1 label {
+  padding-left: 4.5rem;
+}
+.container .priority_class #select {
+  margin-left: 2.08rem;
+}
+
+.container .priority_class .layer2 {
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+.container .message_class {
+  width: 400px;
+}
+.container .message_class .layer1 {
+  position: absolute;
+}
+.container .message_class .layer1 #message {
+  position: absolute;
+  margin-left: 9.55rem;
+}
+.container .message_class .layer2 {
+  position: absolute;
+  margin-top: 1.2rem;
+  margin-left: 5px;
+}
+.container .message_class .layer1 label {
+  position: absolute;
+  margin-left: 4.3rem;
+}
+.container .submit_class {
+  margin-top: 185px;
+  border: 1px solid black;
+  width: fit-content;
+  margin-left: 9.5rem;
+}
+.container .submit_class #btn {
+  background-color: #000;
+  color: #fff;
+}

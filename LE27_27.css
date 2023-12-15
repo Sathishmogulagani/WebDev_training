@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #aaa;
+}
+.box {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+.College {
+  position: sticky;
+  top: 0px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-weight: bold;
+  width: 20rem;
+  height: 3rem;
+  background-color: #eee;
+}
