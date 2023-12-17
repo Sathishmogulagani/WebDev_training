@@ -92,12 +92,37 @@ sticky:
 
 
 
+//bootstrap
+grid=rows,cols
 
+.container class:
+	spacing is auto given
+row=12 cols
+	use these 12 cols t ddisplay content
+	we can customize by giveing cols="x" whose summation is like 12
 
+screens
+	col-sm-6 sm=568px this given to a perticular first_element
+	col sm-6
+	-------------
+			12
+	------------
 
+spinner-border
+class="dropdown"
+dropdown-toggle data-bs-toggle="dropdown"
+dropdown-menu
+dropdown-item
+card w-25
+	rounded
 
-
-
+google:
+accordion id=""
+accordion-item
+data-bs-target="collapse"
+data-bs-target="#collOne"
+show clss used to show databy defalut
+accordion-body
 
 
 

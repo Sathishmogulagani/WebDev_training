@@ -1,0 +1,37 @@
+.green
+{
+    color: #ddff00;
+}
+.violet
+{
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(146, 78, 214);
+}
+.gray-1
+{
+    background-color: #047d71;
+    color: rgb(58, 40, 5);
+    text-shadow: 0 0 10px rgb(17, 17, 17), 0 0 20px rgb(131, 200, 78),
+            0 0 30px rgb(164, 145, 145);
+}
+.gray-2
+{
+    background-color:rgb(159, 214, 166);
+}
+.text-3
+{
+    font-weight:bold;
+}
+.text-4
+{
+    font-style: italic;
+}
+.text-5
+{
+    color: red;
+    font-size:larger;
+}
